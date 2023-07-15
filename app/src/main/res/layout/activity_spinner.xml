@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="TugasKelompokPPT15.SpinnerActivity">
+
+    <TextView
+        android:id="@+id/bhspro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#483D8B"
+        android:padding="15dp"
+        android:text="Bahasa Pemrograman"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gbpro"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/bhspro"
+        android:src="@drawable/imgpro" />
+
+    <TextView
+        android:id="@+id/txtpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gbpro"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp"
+        android:text="Tertarik Belajar Bahasa Pemrograman?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtpro2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtpro"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:text="Ikuti kelas kami untuk belajar pemrograman secara terkonsep dengan materi-materi yang mudah dipahami" />
+
+    <TextView
+        android:id="@+id/plhkelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtpro2"
+        android:paddingLeft="15dp"
+        android:paddingTop="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:text="Pilih Kelas yang Sesuai Denganmu" />
+
+    <TextView
+        android:id="@+id/plhumur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/plhkelas"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:textSize="16dp"
+        android:hint="Umur" />
+
+    <Spinner
+        android:id="@+id/spumur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plhumur"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:entries="@array/sample_umur"
+        android:minWidth="48dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/plhpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spumur"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:textSize="16dp"
+        android:hint="Bahasa Pemrograman" />
+
+    <Spinner
+        android:id="@+id/sppro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plhpro"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:entries="@array/sample_program"
+        android:minWidth="48dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sppro"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="OK" />
+
+</RelativeLayout>

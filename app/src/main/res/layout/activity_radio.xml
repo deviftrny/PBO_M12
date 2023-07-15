@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="TugasKelompokPPT15.RadioActivity">
+
+    <TextView
+        android:id="@+id/tvkemeja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#483D8B"
+        android:padding="15dp"
+        android:text="Pembelian Kemeja"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gbkemeja"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/tvkemeja"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/imgkemeja" />
+
+    <TextView
+        android:id="@+id/tvharga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvkemeja"
+        android:layout_toRightOf="@id/gbkemeja"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#483D8B"
+        android:text="Rp 32.000 - Rp 58.000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvharga"
+        android:layout_toRightOf="@id/gbkemeja"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Stok: 390" />
+
+    <TextView
+        android:id="@+id/tvjenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gbkemeja"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:text="Jenis" />
+
+    <RadioGroup
+        android:id="@+id/rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvjenis"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbpanjang"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Lengan Panjang" />
+
+        <RadioButton
+            android:id="@+id/rbpendek"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Lengan Pendek" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvwarna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rb"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:text="Warna" />
+
+    <RadioGroup
+        android:id="@+id/rb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvwarna"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbmerah"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Merah" />
+
+        <RadioButton
+            android:id="@+id/rbtosca"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Tosca" />
+
+        <RadioButton
+            android:id="@+id/rbputih"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Putih" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rb2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbolive"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Olive" />
+
+        <RadioButton
+            android:id="@+id/rblilac"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Lilac" />
+
+        <RadioButton
+            android:id="@+id/rbrose"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Rose Gold" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rb4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rb3"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbhitam"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Hitam" />
+
+        <RadioButton
+            android:id="@+id/rbmint"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Mint" />
+
+        <RadioButton
+            android:id="@+id/rbmustard"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Mustard" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rb5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rb4"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbkhaki"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Khaki" />
+
+        <RadioButton
+            android:id="@+id/rbnavy"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Navy" />
+
+        <RadioButton
+            android:id="@+id/rbarmy"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Army" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvukuran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rb5"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:text="Ukuran" />
+
+    <RadioGroup
+        android:id="@+id/rb6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvukuran"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbm"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="M" />
+
+        <RadioButton
+            android:id="@+id/rbl"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="L" />
+
+        <RadioButton
+            android:id="@+id/rbxl"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="XL" />
+
+        <RadioButton
+            android:id="@+id/rbxxl"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="XXL" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnker"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rb6"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Masukkan Keranjang" />
+
+</RelativeLayout>

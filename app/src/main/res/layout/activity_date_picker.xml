@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="TugasKelompokPPT15.DatePickerActivity">
+
+    <TextView
+        android:id="@+id/tvdatepick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#483D8B"
+        android:padding="15dp"
+        android:text="Pengaturan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvdatepick"
+        android:paddingTop="20dp"
+        android:paddingBottom="30dp"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:text="Tanggal dan Waktu"/>
+
+    <TextView
+        android:id="@+id/tvoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvdate"
+        android:paddingLeft="35dp"
+        android:paddingBottom="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Tanggal dan Waktu Otomatis" />
+
+    <TextView
+        android:id="@+id/tvzona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvoto"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:text="Pilih Zona Waktu" />
+
+    <TextView
+        android:id="@+id/tvtanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvzona"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:text="Atur Tanggal" />
+
+    <TextView
+        android:id="@+id/tvatur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtanggal"
+        android:paddingLeft="35dp"
+        android:hint="23/06/2023" />
+
+    <TextView
+        android:id="@+id/tvwaktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvatur"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:text="Setelan Waktu" />
+
+    <TextView
+        android:id="@+id/tvset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvwaktu"
+        android:paddingLeft="35dp"
+        android:hint="04.32 PM" />
+
+</RelativeLayout>

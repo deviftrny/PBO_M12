@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="TugasKelompokPPT15.CheckboxActivity">
+
+    <TextView
+        android:id="@+id/cbfood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#483D8B"
+        android:padding="15dp"
+        android:text="Delivery Cake"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbfood" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/gbfood"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/imgfood" />
+
+            <TextView
+                android:id="@+id/tvcake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gbfood"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#4B2C13"
+                android:text="Order Today Delivery Today"/>
+
+            <TextView
+                android:id="@+id/tvcake2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvcake"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="Temukan kue favoritmu disini!" />
+
+            <TextView
+                android:id="@+id/tvdaftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvcake2"
+                android:paddingLeft="15dp"
+                android:paddingTop="30dp"
+                android:textStyle="bold"
+                android:text="Produk PIlihan" />
+
+            <CheckBox
+                android:id="@+id/cbcake"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvdaftar"
+                android:layout_marginLeft="15dp"
+                android:text="Brownies" />
+
+            <CheckBox
+                android:id="@+id/cbcake2"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cbcake"
+                android:layout_marginLeft="15dp"
+                android:text="Bolu" />
+
+            <CheckBox
+                android:id="@+id/cbcake3"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cbcake2"
+                android:layout_marginLeft="15dp"
+                android:text="Coco Cake" />
+
+            <CheckBox
+                android:id="@+id/cbcake4"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cbcake3"
+                android:layout_marginLeft="15dp"
+                android:text="German Black Forest" />
+
+            <CheckBox
+                android:id="@+id/cbcake5"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cbcake4"
+                android:layout_marginLeft="15dp"
+                android:text="Key Lime Pie" />
+
+            <CheckBox
+                android:id="@+id/cbcake6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvdaftar"
+                android:layout_toRightOf="@id/cbcake"
+                android:text="Super Tiramisu Cake" />
+
+            <CheckBox
+                android:id="@+id/cbcake7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cbcake6"
+                android:layout_toRightOf="@id/cbcake2"
+                android:text="Kaastengel" />
+
+            <CheckBox
+                android:id="@+id/cbcake8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cbcake7"
+                android:layout_toRightOf="@id/cbcake3"
+                android:text="Sagu Keju" />
+
+            <CheckBox
+                android:id="@+id/cbcake9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cbcake8"
+                android:layout_toRightOf="@id/cbcake4"
+                android:text="Cupcakes" />
+
+            <CheckBox
+                android:id="@+id/cbcake10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cbcake9"
+                android:layout_toRightOf="@id/cbcake5"
+                android:text="Strawberry Surprise" />
+
+            <Button
+                android:id="@+id/btncake"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cbcake10"
+                android:layout_margin="15dp"
+                android:text="Pesan" />
+
+            <TextView
+                android:id="@+id/tvtampil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btncake"
+                android:paddingLeft="15dp"
+                android:paddingBottom="25dp"
+                android:text="" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

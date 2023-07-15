@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="TugasKelompokPPT15.SwitchActivity">
+
+    <TextView
+        android:id="@+id/swtch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#483D8B"
+        android:padding="15dp"
+        android:text="Tampilan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swtch"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="Mode Gelap"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swmode"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvmode"
+        android:layout_marginTop="20dp"
+        app:showText="true"
+        android:thumb="@drawable/thumb"
+        app:track="@drawable/track"/>
+</RelativeLayout>

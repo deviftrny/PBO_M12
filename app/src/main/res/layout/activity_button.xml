@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/border"
+    tools:context="TugasKelompokPPT15.ButtonActivity">
+
+    <Button
+        android:id="@+id/btnTextView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Text View" />
+
+    <Button
+        android:id="@+id/btnImageView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Image View" />
+
+    <Button
+        android:id="@+id/btnEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Edit Text" />
+
+    <Button
+        android:id="@+id/btnCheckbox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Checkbox" />
+
+    <Button
+        android:id="@+id/btnToggleButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Toggle Button" />
+
+    <Button
+        android:id="@+id/btnSwitch"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <Button
+        android:id="@+id/btnRadioButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Radio Group dan Radio Button" />
+
+    <Button
+        android:id="@+id/btnSpinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Spinner" />
+
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Time Picker" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Date Picker" />
+
+</LinearLayout>

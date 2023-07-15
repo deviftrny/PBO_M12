@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="TugasKelompokPPT15.TextViewActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#483D8B"
+        android:padding="15dp"
+        android:text="Android Studio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/subjudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="20dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="10dp"
+                android:text="Definisi"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#483D8B"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/isi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subjudul"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/isi" />
+
+            <TextView
+                android:id="@+id/subjudul2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/isi"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="10dp"
+                android:text="Fitur-Fitur"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#483D9B"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/isi2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subjudul2"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/isi2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/subjudul3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/isi2"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="10dp"
+                android:text="Spesifikasi Laptop atau Komputer"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#483D8B"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/isi3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subjudul3"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/isi3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

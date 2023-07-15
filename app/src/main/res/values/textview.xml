@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="isi">Android Studio adalah perangkat lunak resmi yang sepenuhnya disetujui oleh Google sebagai perusahaan induk dari sistem operasi Android. Sebelum Google resmi merilis Android Studio dan mendukung penuh, Google sudah  mendukung Eclipse. Tempat dimana Eclipse pernah ada adalah perangkat lunak atau IDE yang digunakan pengembang Android untuk mengembangkan aplikasi Android.
+\n
+    </string>
+
+    <string name="isi2">Dengan menggunakan Android Studio proses menciptakan aplikasi anroid menjadi lebih mudah. Itu karena banyaknya fitur-fitur yang tersedia, diantaranya :
+\n\n
+ ▪ Sistem Versi gradle yang fleksibel \n
+ ▪ Emulator yang cepat dan dilengkapi kaya fitur \n
+ ▪ Lingkungan yang menyatu untuk mengembangkan
+   android bagi semua perangkat android \n
+ ▪ Template kode dan integrasi dengan GitHub untuk
+   membuat fitur aplikasi yang sama dan mengimpor
+   kode-kode contoh \n
+ ▪ Alat pengujian dan kerangka kerja yang ekstensif \n
+ ▪ Dukungan Google Cloud Platform sehingga mempermudah
+   saat pengintegrasian Google Cloud Messaging dan App
+   Engine \n
+    </string>
+
+    <string name="isi3">Spesifikasi minimal laptop atau komputer yang bisa menjalankan Android Studio yaitu sebagai berikut :
+\n\n
+OS Windows \n
+ ▪ Menggunakan OS microsoft windows 7/8/10/11 (32-64 bit) \n
+ ▪ Ram minimal 3GB, namun yang direcomendasikan adalah 8 GB Ram \n
+ ▪ Ruang disk yang tersedia minimal 2Gb \n
+ ▪ Resolusi layar minimal 1280x800 \n\n
+
+Mac OS \n
+ ▪ Mac OS X 10.10 atau yang lebih tinggi \n
+ ▪ Ram minimal 3GB direkomendasikan 8 GB Ram \n
+ ▪ Ruang disk minimal 2GB \n
+ ▪ Resolusi layar yang digunakan adalah 1280 x 800 \n\n
+
+OS Linux \n
+ ▪ Ruang disk minimal tersedia 2GB \n
+ ▪ Resolusi minimal yang digunakan adalah 1280 x 800
+    </string>
+
+</resources>

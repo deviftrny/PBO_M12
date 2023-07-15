@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="sample_provinsi">
+        <item>Aceh</item>
+        <item>Bengkulu</item>
+        <item>DKI Jakarta</item>
+        <item>Gorontalo</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Jambi</item>
+        <item>Lampung</item>
+        <item>Papua</item>
+    </string-array>
+
+    <string-array name="sample_umur">
+        <item>10-15 tahun</item>
+        <item>16-20 tahun</item>
+        <item>21-25 tahun</item>
+        <item>26-30 tahun</item>
+        <item>31-35 tahun</item>
+        <item>+35 tahun</item>
+    </string-array>
+
+    <string-array name="sample_program">
+        <item>Java</item>
+        <item>C++</item>
+        <item>Python</item>
+        <item>PHP</item>
+        <item>CSS</item>
+        <item>HTML</item>
+        <item>SQL</item>
+    </string-array>
+</resources>

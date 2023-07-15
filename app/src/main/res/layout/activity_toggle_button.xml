@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="TugasKelompokPPT15.ToggleButtonActivity">
+
+    <TextView
+        android:id="@+id/toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#483D8B"
+        android:padding="15dp"
+        android:text="Pengaturan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvgrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toggle"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Grafik" />
+
+    <TextView
+        android:id="@+id/tvout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvgrap"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:text="Outline"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <ToggleButton
+        android:id="@+id/tbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvgrap"
+        android:minHeight="50dp"
+        android:onClick="onSwitchClick"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp" />
+
+    <TextView
+        android:id="@+id/tvkamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:text="Tinggi Kamera" />
+
+    <ToggleButton
+        android:id="@+id/tbkamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbout"
+        android:minHeight="50dp"
+        android:onClick="onSwitchClick2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp" />
+
+    <TextView
+        android:id="@+id/tvskill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbkamera"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:text="Vibrasi Skill" />
+
+    <ToggleButton
+        android:id="@+id/tbskill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbkamera"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        android:minHeight="50dp"
+        android:onClick="onSwitchClick3" />
+
+    <TextView
+        android:id="@+id/tvhd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbskill"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:text="Mode HD" />
+
+    <ToggleButton
+        android:id="@+id/tbhd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbskill"
+        android:minHeight="50dp"
+        android:onClick="onSwitchClick4"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp" />
+
+    <TextView
+        android:id="@+id/tvbuta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbhd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:text="Filter Buta Warna" />
+
+    <ToggleButton
+        android:id="@+id/tbbuta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbhd"
+        android:minHeight="50dp"
+        android:onClick="onSwitchClick5"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp" />
+
+</RelativeLayout>
